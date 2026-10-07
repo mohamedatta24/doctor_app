@@ -27,7 +27,7 @@ class OnBoardingViewBody extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 12.sp,
                     fontWeight: FontWeight.w400,
-                    color: Color(0xff757575),
+                    color: const Color(0xff757575),
                   ),
                 ),
               ),
