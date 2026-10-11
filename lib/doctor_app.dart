@@ -1,3 +1,4 @@
+import 'package:doctor_app/features/auth/presentation/views/login_view.dart';
 import 'package:doctor_app/features/onBoarding/presentation/views/on_boarding_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -16,7 +17,7 @@ class DoctorApp extends StatelessWidget {
         ),
         debugShowCheckedModeBanner: false,
         title: "Doctor App",
-        home: const OnBoardingView(),
+        home: const LoginView(),
       ),
     );
   }
